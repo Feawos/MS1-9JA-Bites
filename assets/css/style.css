@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+/*------Body Reset------*/
+body{
+    overflow-x: hidden;
+    font-family: 'montserrat', sans-serif;
+    color: #616971;
+}
+
+/*-----------------------------------------Navigation-----------------------------------------------------------------*/
+.navbar{
+    line-height: 75px;
+    position: static;
+    box-shadow: 0 8px 8px rgba(0, 0,0, 1.6px);
+    z-index: 1;
+
+}
+.navbar img{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding-bottom: 15px;
+}
+
+.nav-item{
+    padding: 8px;
+    font-weight: 600;
+    letter-spacing: 1.6px;  
+}
+.nav-link{
+    color: #212529!important;
+}
+.nav-link.active,
+.nav-link:hover{
+    color: #059731!important;
+}
+
+/*-----------------------------------------Home-----------------------------------------------------------------*/
+
+.jumbotron{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+  animation-name: jumbotron-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+.display-4{
+    font-weight: 500;
+    color: #212529;
+}
+.lead{
+    color: #212529;
+    font-weight: 500;
+}
+
+.about{
+    color: #212529;
+    padding-top: 20px;
+}
+.about h3:hover{
+    color: #059731!important;
+    
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------Menu-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------Contact-Us-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------Footer-----------------------------------------------------------------*/
+footer {
+    line-height: 15px;
+    background-color: #f8f9fa;
+    position: static;
+    text-align: center;
+    
+}
+ footer p{
+    text-decoration: underline;
+    color: #212529;
+}
+footer p i{
+    color:#059731;
+}
+footer p i:hover{
+    color: #212529;
+}
+.social-networks li {
+    display: inline;
+}
+.social-networks i{
+    font-size: 200%;
+    padding: 5%;
+    margin: 1%;
+    color:#059731;  
+}
+.social-networks i:hover{
+    color: #212529;
+}
+
+@keyframes jumbotron-zoom{
+       from{
+         transform: scale(1);
+       }
+       to{
+         transform: scale(1.1);
+       }
+}
