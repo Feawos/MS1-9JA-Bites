@@ -3,9 +3,20 @@
 body{
     overflow-x: hidden;
     font-family: 'montserrat', sans-serif;
-    color: #616971;
+    color: #000000;
+    font-size: 10px;
 }
-
+/*---------------------------------------Top-Bar Header---------------------------------------------------------------*/
+.top-bar{
+    background: #059731;
+    height: 3rem;
+    padding: .8rem 0;
+}
+.top-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
 /*-----------------------------------------Navigation-----------------------------------------------------------------*/
 .navbar{
     line-height: 75px;
@@ -26,7 +37,7 @@ body{
     letter-spacing: 1.6px;  
 }
 .nav-link{
-    color: #212529!important;
+    color: #000000!important;
 }
 .nav-link.active,
 .nav-link:hover{
@@ -45,15 +56,15 @@ body{
 }
 .display-4{
     font-weight: 500;
-    color: #212529;
+    color: #000000;
 }
 .lead{
-    color: #212529;
+    color: #000000;
     font-weight: 500;
 }
 
 .about{
-    color: #212529;
+    color: #000000;
     padding-top: 20px;
 }
 .about h3:hover{
@@ -103,13 +114,13 @@ footer {
 }
  footer p{
     text-decoration: underline;
-    color: #212529;
+    color: #000000;
 }
 footer p i{
     color:#059731;
 }
 footer p i:hover{
-    color: #212529;
+    color: #000000;
 }
 .social-networks li {
     display: inline;
@@ -121,7 +132,7 @@ footer p i:hover{
     color:#059731;  
 }
 .social-networks i:hover{
-    color: #212529;
+    color: #000000;
 }
 
 @keyframes jumbotron-zoom{
