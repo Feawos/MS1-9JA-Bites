@@ -18,23 +18,18 @@ body{
     font-size: 1.7rem;
 }
 /*-----------------------------------------Navigation-----------------------------------------------------------------*/
+.navbar-brand img{
+    height: 9rem;
+}
 .navbar{
-    line-height: 75px;
-    position: static;
-    box-shadow: 0 8px 8px rgba(0, 0,0, 1.6px);
-    z-index: 1;
-
-}
-.navbar img{
-    margin-bottom: 10px;
-    margin-left: 30px;
-    padding-bottom: 15px;
-}
-
-.nav-item{
-    padding: 8px;
+    font-size: 1.5rem;
     font-weight: 600;
-    letter-spacing: 1.6px;  
+    letter-spacing: 0;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+.nav-item{
+    padding: .8rem;  
 }
 .nav-link{
     color: #000000!important;
@@ -45,27 +40,39 @@ body{
 }
 
 /*-----------------------------------------Home-----------------------------------------------------------------*/
-
+.ja-jumbo{
+     background: url(../images/ofada.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover; 
+     -moz-background-size: cover; 
+     -o-background-size: cover; 
+     background-size: cover;
+     text-align: center;
+     
+}
 .jumbotron{
-    height: 600px;
+    height: 50rem;
     width: 100%;
-    text-align: center;
   animation-name: jumbotron-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
 }
-.display-4{
+.display-4 {
     font-weight: 500;
     color: #000000;
+    padding-top: 8.5rem;
+    
 }
 .lead{
-    color: #000000;
     font-weight: 500;
+    color: #000000;
 }
-
 .about{
     color: #000000;
-    padding-top: 20px;
+    padding-top: 2rem;
+}
+.about p{
+    font-size: 1rem;
 }
 .about h3:hover{
     color: #059731!important;
@@ -106,7 +113,7 @@ body{
 
 /*-----------------------------------------Footer-----------------------------------------------------------------*/
 footer {
-    line-height: 15px;
+    line-height: 1.5rem;
     background-color: #f8f9fa;
     position: static;
     text-align: center;
@@ -115,6 +122,7 @@ footer {
  footer p{
     text-decoration: underline;
     color: #000000;
+    font-size: 1rem;
 }
 footer p i{
     color:#059731;
@@ -126,7 +134,7 @@ footer p i:hover{
     display: inline;
 }
 .social-networks i{
-    font-size: 200%;
+    font-size: 300%;
     padding: 5%;
     margin: 1%;
     color:#059731;  
