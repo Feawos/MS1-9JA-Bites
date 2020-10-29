@@ -91,9 +91,11 @@ body{
 
 /*-----------------------------------------Menu-----------------------------------------------------------------*/
 #menu{
-    height: auto;
+    height: 90rem;
+    clear: both;
     line-height: 4.5rem;
     column-count: 4;
+    column-gap: .5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     
@@ -103,6 +105,7 @@ body{
     height: auto;
 }
 .menu-item{
+    width: 100%;
     display: inline-block;
 }
 .menu-item :hover{
