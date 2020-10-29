@@ -8,6 +8,7 @@ body{
 }
 /*---------------------------------------Top-Bar Header---------------------------------------------------------------*/
 .top-bar{
+    width: 100%;
     background: #059731;
     height: 3rem;
     padding: .8rem 0;
@@ -22,9 +23,11 @@ body{
 }
 /*-----------------------------------------Navigation-----------------------------------------------------------------*/
 .navbar-brand img{
-    height: 9rem;
+    height: 8.5rem;
 }
 .navbar{
+    width: 100%;
+    background-color:#e2e5e7;
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0;
@@ -50,7 +53,7 @@ body{
      -o-background-size: cover; 
      background-size: cover;
      text-align: center;
-     
+     text-shadow: .1rem .1rem .15rem #f8f9fa;
 }
 .jumbotron{
     height: 50rem;
@@ -61,14 +64,15 @@ body{
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
 }
 .display-4 {
-    font-weight: 500;
+    font-weight: 600;
     color: #000000;
     padding-top: 8.5rem;
     
 }
 .lead{
-    font-weight: 500;
+    font-weight: 600;
     color: #000000;
+    font-size: 1.5rem;
 }
 .about{
     color: #000000;
@@ -77,15 +81,21 @@ body{
 .about p{
     font-size: 1rem;
 }
+.about h3{
+    color: #059731;
+}
 .about h3:hover{
-    color: #059731!important;
+    color: #000000!important;
     
 }
 
 /*-----------------------------------------Menu-----------------------------------------------------------------*/
 #menu{
+    height: auto;
     line-height: 4.5rem;
     column-count: 4;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     
 }
 #menu img{
@@ -156,7 +166,7 @@ column-count: 3;
 /*-----------------------------------------Footer-----------------------------------------------------------------*/
 footer {
     line-height: 1.5rem;
-    background-color: #f8f9fa;
+    background-color:#e2e5e7;
     position: static;
     text-align: center;
     
@@ -165,6 +175,7 @@ footer {
     text-decoration: underline;
     color: #000000;
     font-size: 1rem;
+    font-weight: 500;
 }
 footer p i{
     color:#059731;
