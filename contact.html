@@ -52,27 +52,28 @@
 <section id="contact-us">
     <!--Address/Telephone-->
     <div class="address">
-      <h4><i class="fas fa-map-marker-alt"></i> 9ja Bites</h4>
-        <p>1001 O'Connel Street,Dublin 1</p>
+      <h4>9ja Bites Restaurant</h4>
+        <p><a href="https://goo.gl/maps/sp3kUwGTc3SVobno9" target="_blank"><i class="fas fa-map-marker-alt"></i></a> 1001 O'Connel Street,Dublin 1</p>
     </div>
     <div class="phone">
        <p><a href="tel:+1555777"><i class="fas fa-phone-square-alt"></i> 01-555-9ja-Bites</a></p>
     </div>
 
     <!--Contact us/Book a table Form-->
-    <form>
-       <div class="contact-form">
-         <label for="name">Name</label>
-          <input type="text" class="form-order" id="name" placeholder="Name">
-         <label for="email">Email Address</label>
-          <input type="email" class="form-order" id="email" placeholder="Email Address">
-          <label for="booking-details">Reservation details</label>
+    <div id="form">
+       <form class="contact-form">
+         <label for="name">Name:</label><br>
+          <input type="text" class="form-order" id="name" placeholder="Your Name" required><br>
+         <label for="email">Email Address:</label><br>
+          <input type="email" class="form-order" id="email" placeholder="Your Email Address" required><br>
+          <label for="booking-details">Reservation details:</label><br>
           <textarea class="form-order" id="booking-details" placeholder="Reservation summary"></textarea>
           <div>
             <button type="submit" class="submit-order">Submit</button>
           </div>
-       </div>
-    </form>
+      </form>
+    </div>
+    
 
 </section>  
 
