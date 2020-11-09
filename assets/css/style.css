@@ -5,6 +5,9 @@ body{
     font-family: 'montserrat', sans-serif;
     color: #000000;
     font-size: 10px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 /*---------------------------------------Top-Bar Header---------------------------------------------------------------*/
 .top-bar{
@@ -12,7 +15,7 @@ body{
     background: #059731;
     height: 3rem;
     padding: .8rem 0;
-    border-radius: .2rem
+    
 }
 .top-bar a{
     color: white;
@@ -28,7 +31,6 @@ body{
     border: .20rem solid #000000;
 }
 .navbar{
-    border-radius: .2rem;
     width: 100%;
     background-color:#e2e5e7;
     font-size: 1.5rem;
@@ -97,16 +99,12 @@ body{
     column-count: 4;
     column-gap: .5rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
-
-    
+    padding-bottom: 1rem;  
 }
-#menu img{
+
+.menu-item img{
     width: 100%;
     height: auto;
-}
-.menu-item{
-    width: 100%;
     display: inline-block;
     margin: 0;
 }
@@ -118,19 +116,19 @@ body{
     font-weight: 600;
 }
 
-@media screen and (max-width: 1393px){
+@media screen and (max-width: 139.300em){
 #menu{
 column-count: 4;
 }
 }
 
-@media screen and (max-width: 943px){
+@media screen and (max-width: 94.300em){
 #menu{
 column-count: 3;
 }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 76.800em){
 #menu{
     column-count: 2;
 }
