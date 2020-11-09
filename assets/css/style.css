@@ -28,6 +28,7 @@ body{
 /*-----------------------------------------Navigation-----------------------------------------------------------------*/
 .navbar-brand img{
     height: 8.5rem;  
+    width: 15rem;
     border: .20rem solid #000000;
 }
 .navbar{
@@ -51,27 +52,21 @@ body{
 }
 
 /*-----------------------------------------Home-----------------------------------------------------------------*/
-.ja-jumbo{
-     background: url(../images/ofada.jpg) no-repeat center center fixed;
-     -webkit-background-size: cover; 
-     -moz-background-size: cover; 
-     -o-background-size: cover; 
-     background-size: cover;
-     text-align: center;
-     text-shadow: .1rem .1rem .15rem #f8f9fa;
-}
 .jumbotron{
-    height: 50rem;
-    width: 96%;
-  animation-name: jumbotron-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
+  height: 50rem;
+  width: 100%;
+  text-align: center;
+  text-shadow: .1rem .1rem .15rem #f8f9fa;
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
 }
-.display-4 {
-    font-weight: 600;
-    color: #000000;
-    padding-top: 8.5rem;
+.home-jumbo{
+  background: url(../images/ofada-min.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.display-4{
+  font-weight: 600;
+  color: #000000;
+  padding-top: 8.5rem;
     
 }
 .lead{
@@ -227,11 +222,3 @@ footer p i{
     color: #000000;
 }
 
-@keyframes jumbotron-zoom{
-       from{
-         transform: scale(1);
-       }
-       to{
-         transform: scale(1.1);
-       }
-}
