@@ -1,224 +1,224 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
-/*------Body Reset------*/
-body{
-    overflow-x: hidden;
-    font-family: 'montserrat', sans-serif;
-    color: #000000;
-    font-size: 10px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-/*---------------------------------------Top-Bar Header---------------------------------------------------------------*/
-.top-bar{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+    /*------Body Reset------*/
+    body{
+        overflow-x: hidden;
+        font-family: 'montserrat', sans-serif;
+        color: #000000;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    /*---------------------------------------Top-Bar Header---------------------------------------------------------------*/
+    .top-bar{
+        width: 100%;
+        background: #059731;
+        height: 3rem;
+        padding: .8rem 0;
+        
+    }
+    .top-bar a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    .top-bar p a:hover{
+        color: #000000;
+    }
+    /*-----------------------------------------Navigation-----------------------------------------------------------------*/
+    .navbar-brand img{
+        height: 8.5rem;  
+        width: 15rem;
+        border: .20rem solid #000000;
+    }
+    .navbar{
+        width: 100%;
+        background-color:#e2e5e7;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
+        z-index: 2;
+    }
+    .nav-item{
+        padding: .8rem;  
+    }
+    .nav-link{
+        color: #000000!important;
+    }
+    .nav-link.active,
+    .nav-link:hover{
+        color: #059731!important;
+    }
+
+    /*-----------------------------------------Home-----------------------------------------------------------------*/
+    .jumbotron{
+    height: 50rem;
     width: 100%;
-    background: #059731;
-    height: 3rem;
-    padding: .8rem 0;
-    
-}
-.top-bar a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-.top-bar p a:hover{
-    color: #000000;
-}
-/*-----------------------------------------Navigation-----------------------------------------------------------------*/
-.navbar-brand img{
-    height: 8.5rem;  
-    width: 15rem;
-    border: .20rem solid #000000;
-}
-.navbar{
-    width: 100%;
-    background-color:#e2e5e7;
-    font-size: 1.5rem;
-    font-weight: 600;
-    letter-spacing: 0;
+    text-align: center;
+    text-shadow: .1rem .1rem .15rem #f8f9fa;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
-    z-index: 2;
-}
-.nav-item{
-    padding: .8rem;  
-}
-.nav-link{
-    color: #000000!important;
-}
-.nav-link.active,
-.nav-link:hover{
-    color: #059731!important;
-}
-
-/*-----------------------------------------Home-----------------------------------------------------------------*/
-.jumbotron{
-  height: 50rem;
-  width: 100%;
-  text-align: center;
-  text-shadow: .1rem .1rem .15rem #f8f9fa;
-  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
-}
-.home-jumbo{
-  background: url(../images/ofada-min.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-.display-4{
-  font-weight: 600;
-  color: #000000;
-  padding-top: 8.5rem;
-    
-}
-.lead{
+    }
+    .home-jumbo{
+    background: url(../images/ofada-min.jpg) no-repeat center center fixed;
+    background-size: cover;
+    }
+    .display-4{
     font-weight: 600;
     color: #000000;
-    font-size: 1.5rem;
-}
-.about{
-    color: #000000;
-    padding-top: 2rem;
-}
-.about p{
-    font-size: 1rem;
-}
-.about h3{
-    color: #000000;
-}
+    padding-top: 8.5rem;
+        
+    }
+    .lead{
+        font-weight: 600;
+        color: #000000;
+        font-size: 1.5rem;
+    }
+    .about{
+        color: #000000;
+        padding-top: 2rem;
+    }
+    .about p{
+        font-size: 1rem;
+    }
+    .about h3{
+        color: #000000;
+    }
 
 
-/*-----------------------------------------Menu-----------------------------------------------------------------*/
-#menu{
-    height: 100%;
-    clear: both;
-    line-height: 4.5rem;
+    /*-----------------------------------------Menu-----------------------------------------------------------------*/
+    #menu{
+        height: 100%;
+        clear: both;
+        line-height: 4.5rem;
+        column-count: 4;
+        column-gap: .5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;  
+    }
+
+    .menu-item img{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        margin: 0;
+    }
+    .menu-item :hover{
+        transform: scale(1.3);
+    }
+    .menu-item h6{
+        text-align: center;
+        font-weight: 600;
+    }
+
+    @media screen and (max-width: 139.300em){
+    #menu{
     column-count: 4;
-    column-gap: .5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;  
-}
+    }
+    }
 
-.menu-item img{
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    margin: 0;
-}
-.menu-item :hover{
-    transform: scale(1.3);
-}
-.menu-item h6{
-    text-align: center;
-    font-weight: 600;
-}
+    @media screen and (max-width: 94.300em){
+    #menu{
+    column-count: 3;
+    }
+    }
 
-@media screen and (max-width: 139.300em){
-#menu{
-column-count: 4;
-}
-}
+    @media screen and (max-width: 76.800em){
+    #menu{
+        column-count: 2;
+    }
+    }
 
-@media screen and (max-width: 94.300em){
-#menu{
-column-count: 3;
-}
-}
+    /*-----------------------------------------Contact-Us-----------------------------------------------------------------*/
+    #contact-us{
+        max-width: 100%;
+        text-align: center;
+        padding: .5rem;
+    }
+    .address{
+        padding-top: 1rem;
+    }
+    .address h4{
+        font-size: 2rem;
+    }
+    .address p{
+        font-size: 2rem;
+    }
+    .address a{
+        color: #000000;
+    }
+    .address a:hover{
+        color: #059731;
+    }
+    .phone a{
+        font-size: 2rem;
+        color: #000000;
+    }
+    .phone p a:hover{
+        color: #059731;
+    }
 
-@media screen and (max-width: 76.800em){
-#menu{
-    column-count: 2;
-}
-}
+    .contact-form{
+        border-radius: .3rem;
+        background-color: #059731;
+        padding: 1.5rem;
+    }
+    label{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    input, textarea{
+        width: 80%;
+        padding: 1rem;
+        border: .1rem solid #000000;
+        border-radius: .4rem;
+        margin-bottom: 1.6rem;
+    }
+    textarea{
+        height: 10rem;
+    }
+    button{
+        background-color: #059731;
+        color: white;
+        padding: 1rem 2rem;
+        border: .15rem solid #e2e5e7;
+        border-radius: .4rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    button:hover{
+        background-color: white;
+        color: #059731 !important;
+    }
 
-/*-----------------------------------------Contact-Us-----------------------------------------------------------------*/
-#contact-us{
-    max-width: 100%;
-    text-align: center;
-    padding: .5rem;
-}
-.address{
-    padding-top: 1rem;
-}
-.address h4{
-    font-size: 2rem;
-}
-.address p{
-    font-size: 2rem;
-}
-.address a{
-    color: #000000;
-}
-.address a:hover{
-    color: #059731;
-}
-.phone a{
-    font-size: 2rem;
-    color: #000000;
-}
-.phone p a:hover{
-    color: #059731;
-}
-
-.contact-form{
-    border-radius: .3rem;
-    background-color: #059731;
-    padding: 1.5rem;
-}
-label{
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-input, textarea{
-    width: 80%;
-    padding: 1rem;
-    border: .1rem solid #000000;
-    border-radius: .4rem;
-    margin-bottom: 1.6rem;
-}
-textarea{
-    height: 10rem;
-}
-button{
-    background-color: #059731;
-    color: white;
-    padding: 1rem 2rem;
-    border: .15rem solid #e2e5e7;
-    border-radius: .4rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-button:hover{
-    background-color: white;
-    color: #059731 !important;
-}
-
-/*-----------------------------------------Footer-----------------------------------------------------------------*/
-footer {
-    line-height: 1.5rem;
-    background-color:#e2e5e7;
-    position: static;
-    text-align: center;
-    border-radius: .2rem;
-}
- footer p{
-    color: #000000;
-    font-size: 1rem;
-    font-weight: 500;
-    text-decoration: underline;
-}
-footer p i{
-    color:#000000;
-}
-.social-networks li {
-    display: inline;
-}
-.social-networks i{
-    font-size: 300%;
-    padding: 5%;
-    margin: 1%;
-    color:#059731;  
-}
-.social-networks i:hover{
-    color: #000000;
-}
+    /*-----------------------------------------Footer-----------------------------------------------------------------*/
+    footer {
+        line-height: 1.5rem;
+        background-color:#e2e5e7;
+        position: static;
+        text-align: center;
+        border-radius: .2rem;
+    }
+    footer p{
+        color: #000000;
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+    footer p i{
+        color:#000000;
+    }
+    .social-networks li {
+        display: inline;
+    }
+    .social-networks i{
+        font-size: 300%;
+        padding: 5%;
+        margin: 1%;
+        color:#059731;  
+    }
+    .social-networks i:hover{
+        color: #000000;
+    }
 
