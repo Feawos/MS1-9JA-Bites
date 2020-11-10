@@ -90,25 +90,26 @@
     #menu{
         height: 100%;
         clear: both;
-        line-height: 4.5rem;
         column-count: 4;
-        column-gap: .5rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;  
+        column-gap: .8rem;
+        padding: .8rem;
+        text-align: center;
+        line-height: 3.2rem;
     }
 
     .menu-item img{
-        width: 100%;
+        max-width: 100%;
         height: auto;
+        margin: 0 auto;
         display: inline-block;
-        margin: 0;
     }
+
     .menu-item :hover{
-        transform: scale(1.3);
+        transform: scale(1.2);
     }
-    .menu-item h6{
-        text-align: center;
+    .menu-item p{
         font-weight: 600;
+        font-size: 1rem;
     }
 
     @media screen and (max-width: 139.300em){
