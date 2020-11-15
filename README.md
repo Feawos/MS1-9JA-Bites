@@ -7,6 +7,7 @@
 <!--Project Name-->
 # 9ja-Bites
 **version 1.0.0**
+
 A website for a Nigerian restaurant in Dublin, Ireland. The website highlights services render by the restaurant,menu gallery and clear path to making contacts with the restaurant for bookings and orders via the Contact page.
 To further make the contacting the restaurant easier fro the customers, there is  a call link on the top bar, which replicates on all pages and of course social media links on the footer which equally appears on all pages.
 The website is targeted at the Nigerian audience and lovers of traditional Nigerian food resident in Ireland or visiting to bringing them to the door.
@@ -71,5 +72,5 @@ Most of the texts are black and white in some cases for better visibility.
 
 
 <!--Copyright-->
-## License & Copyright
+## Copyright
 © 9ja-Bites 2020
