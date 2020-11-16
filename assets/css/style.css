@@ -87,49 +87,18 @@
 
 
     /*-----------------------------------------Menu-----------------------------------------------------------------*/
-    #menu{
-        height: 100%;
-        clear: both;
-        column-count: 4;
-        column-gap: .8rem;
-        padding: .8rem;
-        text-align: center;
-        line-height: 3.2rem;
+    .card-img-top{
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
     }
 
-    .menu-item img{
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-        display: inline-block;
-    }
-
-    .menu-item :hover{
-        transform: scale(1.2);
-    }
-    .menu-item p{
-        font-weight: 600;
-        font-size: 1rem;
-    }
-
-    @media screen and (max-width: 139.300em){
-    #menu{
-    column-count: 4;
+    @media screen and (min-width: 76.800em){
+    .col-12{
+        column-count: 3;
     }
     }
-
-    @media screen and (max-width: 94.300em){
-    #menu{
-    column-count: 3;
-    }
-    }
-
-    @media screen and (max-width: 76.800em){
-    #menu{
-        column-count: 2;
-    }
-    }
-
+    
     /*-----------------------------------------Contact-Us-----------------------------------------------------------------*/
     #contact-us{
         max-width: 100%;
