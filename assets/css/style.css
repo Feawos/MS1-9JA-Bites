@@ -89,12 +89,15 @@
     /*-----------------------------------------Menu-----------------------------------------------------------------*/
     .card-img-top{
         width: 100%;
-        height: 15vw;
+        height: auto;
         object-fit: cover;
+    }
+    .card-text{
+        text-align: center;
     }
 
     @media screen and (min-width: 76.800em){
-    .col-12{
+    .col-4{
         column-count: 3;
     }
     }
