@@ -1,9 +1,8 @@
 
 <!--Project brand-->
-<p align="center">
-  <img width="400" height="240" src="https://user-images.githubusercontent.com/68905209/95513384-2dabe200-09b2-11eb-87fb-5737a9f22f96.png">
-</p>
+[website mockup](assets/images/9jabites_mockup.PNG)
 
+Live website can be found [here](https://oluwafemiawosanya.github.io/MS1-9JA-Bites/)
 <!--Project Name-->
 # 9ja-Bites
 **version 1.0.0.**
