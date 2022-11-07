@@ -2,7 +2,7 @@
 <!--Project brand-->
 ![website mockup](assets/images/9jabites_mockup.PNG)
 
-Live website can be found [here](https://oluwafemiawosanya.github.io/MS1-9JA-Bites/)
+Live website can be found [here](https://feawos.github.io/MS1-9JA-Bites/)
 <!--Project Name-->
 # 9ja-Bites
 **version 1.0.0.**
